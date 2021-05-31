@@ -11,5 +11,9 @@
 python main.py sharpen img.jpg
 ```
 ![Sharpen screen](screen_sharpen.jpg)
-### Локальная пороговая обработка
-Использу
+### Локальная пороговая обработка + Адаптивная
+Используется метод Niblack, Sauvola, Адаптивная пороговая обработка (Ядро 15 на 15)
+```
+python main.py threshold img.jpg
+```
+![Threshold screen](screen_thresh.jpg)
